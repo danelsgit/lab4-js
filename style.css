@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: darkslategrey;
+}
+h1, h2, h3 {
+    text-align: center;
+}
+form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+input, select, button {
+    padding: 10px;
+    font-size: 16px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid darkcyan;
+    padding: 10px;
+    text-align: center;
+}
+tr.income {
+    background-color: #c8e6c9;
+}
+tr.expense {
+    background-color: #ffcdd2;
+}
+button.delete-btn {
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid darkgreen;
+    padding: 5px 10px;
+    cursor: pointer;
+}
